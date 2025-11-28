@@ -10,24 +10,24 @@ data/
     processed/
 
 models/
-hmm_gaussian.pkl
-hmm_scaler.pkl
-hybrid_lstm.pth
-lstm_model.py
+    hmm_gaussian.pkl
+    hmm_scaler.pkl
+    hybrid_lstm.pth
+    lstm_model.py
 
 notebooks/
-01_hmm_regime_inference.ipynb
-02_regime_diagnostics.ipynb
-03_hybrid_lstm_hmm_forecasting.ipynb
+    01_hmm_regime_inference.ipynb
+    02_regime_diagnostics.ipynb
+    03_hybrid_lstm_hmm_forecasting.ipynb
 
 results/
-transition_matrix.png
-dwell_time_distribution.png
-pca_regime_projection.png
-residual_training_curve.png
-residual_forecast_curve.png
-final_dynamic_forecast.png
-model_diagnostics.txt
+    transition_matrix.png
+    dwell_time_distribution.png
+    pca_regime_projection.png
+    residual_training_curve.png
+    residual_forecast_curve.png
+    final_dynamic_forecast.png
+    model_diagnostics.txt
 
 README.md
 
