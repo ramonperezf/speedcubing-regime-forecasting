@@ -49,7 +49,7 @@ Trains a residual LSTM to predict the next Ao5 *change*, then reconstructs the f
 
 ## Key Results
 
-- **Naive baseline MAE:** ~0.757 s  
+- **Baseline MAE:** ~0.757 s  
 - **Residual LSTM MAE:** ~0.727 s  
 - **Dynamic ensemble MAE:** ~0.708 s  
 - **Lag behavior:** correlation is higher at lag 0 than lag 1, suggesting the final ensemble reacts in real time rather than trailing the sequence.
